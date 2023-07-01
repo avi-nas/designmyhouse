@@ -45,6 +45,8 @@ button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  width: auto;
+  height: auto;
 }
 
 .image-wrapper {
@@ -154,7 +156,14 @@ a {
   }
 
   button {
-    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 200px;
+  }
+  .buttonClass{
+    width: 30%;
+    height: 10%;
   }
   p{
     width: 70%;

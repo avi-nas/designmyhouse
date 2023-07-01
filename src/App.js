@@ -28,9 +28,11 @@ function App() {
               Design My House is the planning wing of SIPL (Sawna Infrabuild Private Limited). SIPL is a registered construction company that provides complete housing solutions starting from Planning to Finishing (Naksha se Nirman tak). SIPL has been reputedly in the market since 1999.
               Designmyhouse.app has an innovative & expert team of Professional Architects/Engineers who are providing customer satisfaction-oriented services with the undermentioned specifications:
             </p>
-            <button onClick={handleDownloadClick}>
+            <div className='buttonClass'>
+            <button onClick={handleDownloadClick} >
             <img src="https://github.com/avi-nas/designmyhouse/blob/gh-pages/123.png?raw=true" alt="App Screenshot" className='screenshot' />
           </button>
+          </div>
           </div>
           
         </div>
