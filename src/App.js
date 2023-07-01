@@ -10,27 +10,29 @@ function App() {
     <div className="App" id='App'>
       <div className="content-wrapper">
         <div className="image-wrapper">
-          <img src="/coverimage (2).png" alt="App Screenshot" className='coverImg' />
+          <img src="https://github.com/avi-nas/designmyhouse/blob/gh-pages/coverimage%20(2).png?raw=true" alt="App Screenshot" className='coverImg' />
         </div>
         <div>
 
           <div className='navHome'><a >Home</a></div>
           <div className='navContect'><a href='#copyright'>Contact</a></div>
           <div className="logo-wrapper">
-            <img src="/DMH-Logo.png" alt="Logo" className="logo" />
+            <img src="https://github.com/avi-nas/designmyhouse/blob/gh-pages/DMH-Logo.png?raw=true" alt="Logo" className="logo" />
           </div>
         </div>
         <div className="text-wrapper">
-          <h1>Design My House</h1>
+          
           <div className='description'>
             <p>
+            <h1>Design My House</h1>
               Design My House is the planning wing of SIPL (Sawna Infrabuild Private Limited). SIPL is a registered construction company that provides complete housing solutions starting from Planning to Finishing (Naksha se Nirman tak). SIPL has been reputedly in the market since 1999.
               Designmyhouse.app has an innovative & expert team of Professional Architects/Engineers who are providing customer satisfaction-oriented services with the undermentioned specifications:
             </p>
-          </div>
-          <button onClick={handleDownloadClick}>
-            <img src="/123.png" alt="App Screenshot" className='screenshot' />
+            <button onClick={handleDownloadClick}>
+            <img src="https://github.com/avi-nas/designmyhouse/blob/gh-pages/123.png?raw=true" alt="App Screenshot" className='screenshot' />
           </button>
+          </div>
+          
         </div>
 
       </div>
@@ -48,6 +50,9 @@ function App() {
         </div>
       </div>
     </div>
+
+
+
 
   );
 }

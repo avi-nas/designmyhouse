@@ -53,7 +53,7 @@ button {
 .navHome{
   position: absolute;
   top: 5vh;
-  left: 5vw;
+  right:  15vw;
   display: flex;
   flex-direction: row;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -62,7 +62,7 @@ button {
 .navContect{
   position: absolute;
   top: 5vh;
-  left: 10vw;
+  right:  10vw;
   display: flex;
   flex-direction: row;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -73,8 +73,8 @@ button {
 }
 .logo-wrapper {
   position: absolute;
-  top: 5vh;
-  right: 5vw;
+  top: 1vh;
+  left: 5vw;
   display: flex;
   flex-direction: row;
 }
@@ -100,7 +100,7 @@ a {
 
 
 .description{
-  width: 70%;
+  width: 80%;
   text-align: justify;
 }
 
@@ -129,13 +129,18 @@ a {
 
   .logo {
     
-   
-    max-width: 500px;
+   width: 150px;
+    max-width: 900px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 10px;
+   
   }
 
+  .logo-wrapper{
+    top: 4vh;
+  }
   .coverImg{
     width: 80%;
   }
@@ -155,7 +160,6 @@ a {
     width: 70%;
     text-align: justify;
     padding-left: 15%;
-  
   }
 
   .my-footer {
@@ -179,7 +183,7 @@ a {
   .navHome{
     position: absolute;
     top: 5vh;
-    left: 5vw;
+    right:  30vw;
     display: flex;
     flex-direction: row;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -189,7 +193,7 @@ a {
   .navContect{
     position: absolute;
     top: 5vh;
-    left: 30vw;
+    right: 5vw;
     display: flex;
     flex-direction: row;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
