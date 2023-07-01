@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/designmyhouse/static/css/main.843897ab.css",
+    "main.js": "/designmyhouse/static/js/main.a5d43e2d.js",
+    "index.html": "/designmyhouse/index.html",
+    "main.843897ab.css.map": "/designmyhouse/static/css/main.843897ab.css.map",
+    "main.a5d43e2d.js.map": "/designmyhouse/static/js/main.a5d43e2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.843897ab.css",
+    "static/js/main.a5d43e2d.js"
+  ]
+}
