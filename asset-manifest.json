@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/designmyhouse/static/css/main.4733f564.css",
-    "main.js": "/designmyhouse/static/js/main.cdcb57b0.js",
+    "main.css": "/designmyhouse/static/css/main.c390c9fa.css",
+    "main.js": "/designmyhouse/static/js/main.41a105fc.js",
     "index.html": "/designmyhouse/index.html",
-    "main.4733f564.css.map": "/designmyhouse/static/css/main.4733f564.css.map",
-    "main.cdcb57b0.js.map": "/designmyhouse/static/js/main.cdcb57b0.js.map"
+    "main.c390c9fa.css.map": "/designmyhouse/static/css/main.c390c9fa.css.map",
+    "main.41a105fc.js.map": "/designmyhouse/static/js/main.41a105fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.4733f564.css",
-    "static/js/main.cdcb57b0.js"
+    "static/css/main.c390c9fa.css",
+    "static/js/main.41a105fc.js"
   ]
 }
