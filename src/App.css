@@ -1,38 +1,205 @@
+.logo {
+  width: 50px; /* Adjust the width as per your logo requirements */
+  height: auto;
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.text-wrapper {
+  text-align: left;
+}
+
+body {
+  background-color: #fefdfd;
+  padding-top: 10vh;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #180909;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 3vw;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.image-wrapper {
+  margin-left: 80px;
+}
+.navHome{
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: row;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navContect{
+  position: absolute;
+  top: 5vh;
+  left: 10vw;
+  display: flex;
+  flex-direction: row;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.coverImg{
+  width: 600px; /* Adjust the width as per your image requirements */
+  shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.logo-wrapper {
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 20vw; /* Adjust the width as per your logo requirements */
+  height: auto;
+}
+
+.my-footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background-color: #000000;
+  color: #ebdede;
+}
+
+a {
+  text-decoration: none;
+  color: #fc4c4c;
+}
+
+
+.description{
+  width: 70%;
+  text-align: justify;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.screenshot{
+  width: 20vw;
+}
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .image-wrapper {
+    margin-left: 0;
+    margin-top: 20px;
   }
+
+  .logo {
+    
+   
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .coverImg{
+    width: 80%;
+  }
+
+  /* .text-wrapper {
+    text-align: justify;
+  } */
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+  p{
+    width: 70%;
+    text-align: justify;
+    padding-left: 15%;
+  
+  }
+
+  .my-footer {
+    left: 0;
+    position: absolute;
+    height: auto;
+    padding: 20px;
+    text-align:center
+  }
+
+  .lead{
+    padding: 20px;
+    text-align:center 
+  }
+  .screenshot{
+    width: 50vw;
+    padding: 50%;
+  }
+
+
+  .navHome{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: row;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+  
+  .navContect{
+    position: absolute;
+    top: 5vh;
+    left: 30vw;
+    display: flex;
+    flex-direction: row;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+  }
+  
+  .description{
+    width: 100%;
+    text-align: justify;
+  }
+  
 }
